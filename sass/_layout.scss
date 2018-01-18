@@ -1,0 +1,33 @@
+.header {
+	font-size: 1.4rem;
+	height: 7rem;
+	border-bottom: var(--color-grey-light-2);
+
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.content {
+	min-height: 95vh;
+	background-image: url(https://images.rapgenius.com/56fa3f9ffb7fdd2120fc75fc91ded80a.1000x667x1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 2px solid var(--color-grey-dark-3); 
+	/*background-position: bottom;*/
+
+	@media screen and (min-width: 1250px) {
+
+	}
+
+}
+
+.main-view {
+	position: relative;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
